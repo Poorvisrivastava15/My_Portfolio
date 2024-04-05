@@ -1,7 +1,8 @@
 body{
-    margin:0px;
-    font-family: sans-serif;
-    font-size: 30px;
+    margin:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 25px;
+    background-color: #2f2b2b34;
 }
 
 
@@ -21,7 +22,7 @@ padding-top: 0px;
 
 
 .navigation li a{
-    transition: 1s;
+    transition: 0s;
 }
 
 .navigation li a:hover{
@@ -116,10 +117,10 @@ section{
 
 
 section:nth-child(2n){
-    background-color: #91232329;
+    background-color: #223211ed;
 }
 section:nth-child(2n+1){
-    background-color:white;
+    background-color:rgb(53, 26, 26);
 
 }
 
@@ -168,7 +169,7 @@ section:nth-child(2n+1){
     text-align: justify;
     color: rgb(130, 68, 68);
     line-height: 28px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin: auto;
     
 }
@@ -181,10 +182,10 @@ section:nth-child(2n+1){
     flex-direction:column;
     /* justify-content: top; */
     align-items: center;
-    background-image: url(https://thwartsystemsgh.com/images/Tech_tips/istockphoto-1319404394-170667a.jpg);
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.qWapsDYfJf_M6JYxDk4EkwHaEK&pid=Api&P=0&h=220);
     background-size: cover;
     background-position: center;
-    /* backdrop-filter:blur(1000p) ; */
+    backdrop-filter:blur(100%) ;
 }
  
 .my-heading{
@@ -297,7 +298,7 @@ section:nth-child(2n+1){
 
 /*------------------- experience area -------------------- */
 #experience{
-background-image: url(https://i.pinimg.com/600x315/69/8d/5d/698d5df125b818a47b237096aa52743c.jpg);
+background-image: url(https://t3.ftcdn.net/jpg/02/71/19/68/360_F_271196897_Gc0p3sRjC1Yy5hp2T63sRSUW9Alu4AoB.jpg);
 background-size: cover;
     background-position: center;
     backdrop-filter:blur(20%);
@@ -333,7 +334,7 @@ background-size: cover;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgb(80, 80, 80);
+    /* background-color: rgb(80, 80, 80); */
     z-index: 1;
 }
 
@@ -345,7 +346,7 @@ background-size: cover;
     border-radius: 50%;
     width: 15px;
     height: 25px;
-    background-color: rgb(42, 42, 42);
+    /* background-color: rgb(42, 42, 42); */
     z-index: 1;
 }
 
@@ -375,7 +376,7 @@ background-size: cover;
 }
 
 .m-blue {
-    color: #f0f1f4;
+    color: #d3d4d4;
 }
 
 
@@ -397,7 +398,7 @@ background-size: cover;
 }
 
 .timeline-traveller{
-    color: #e9ecf1;
+    color: #f0f1f7;
     position: sticky;
     top: 30%;
     transform: rotate(90deg);
@@ -411,23 +412,24 @@ background-size: cover;
 .experience-company-name {
     margin: 5px 0 0;
     
-    color: rgb(216, 157, 54);
+    color: rgb(236, 125, 125);
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size:18px;
 }
 
 .experience-duration {
-    color: #f99999;
+    color: #c75959;
     font-weight: 100;
-    color: rgb(245, 142, 142);
+    color: rgb(233, 185, 137);
     font-size: 1rem;
 }
 
 .experience-description {
     list-style: none;
-    font-size: 14px;
+    font-size: 15px;
+    ;
     padding: 2px;
-    color: grey;
+    color: rgb(225, 67, 67);
     line-height: 20px;
 }
 
@@ -438,14 +440,14 @@ background-size: cover;
 
 /*------------------- education area -------------------- */
 #education{
-background-image: url(https://pbs.twimg.com/amplify_video_thumb/1362798102370004999/img/82LFXw8dty0N-dSI.jpg:large);
+background-image: url(https://img.freepik.com/premium-vector/open-book-elearning-low-poly-wireframe-digital-online-education-blue-dark-background_252172-153.jpg);
 background-size: cover;
     background-position: center;
 }
 
 /*------------------- portfoliyo area -------------------- */
 #portfolio{
-
+background-color: #be5f11;
 }
 
 /*------------------- contact area -------------------- */
@@ -546,11 +548,11 @@ textarea {
 
 .my-details-info-container span {
     margin-left: 0.4rem;
-    color: rgb(0, 60, 255);
+    color: rgb(132, 157, 238);
 }
 
 .my-details-info-container i {
-    color: rgb(15, 98, 223);
+    color: rgb(112, 164, 242);
 }
 
 .text-center {
@@ -563,3 +565,4 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+
